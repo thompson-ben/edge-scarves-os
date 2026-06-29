@@ -10,6 +10,25 @@ Versioning: `vMAJOR.MINOR` — MAJOR = strategic milestone, MINOR = shipped spri
 
 ---
 
+### v0.4 — Evidence Standards & Living Audit (Sprint 1 review) — 2026-06-29
+**Type:** Repository / documentation — trust & evidence standard (no store changes, no code)
+**Sprint:** [Sprint 1 review](../backlog/sprint-01-conversion.md)
+
+**Summary:** Strengthened the evidence base in response to the Sprint 1 review. Institutionalised a four-tier claim-classification standard, created an evidence intake structure, and reclassified all strategic positioning recommendations as validation-gated Strategic Hypotheses.
+
+**Shipped:**
+- `docs/19-evidence-standards.md` — the trust contract: **Observed Fact / Reasonable Inference / Strategic Hypothesis / Commercial Recommendation**, tags, confidence levels, and the required Strategic Hypothesis structure (supporting + contradicting evidence, validation required/method, expected impact, confidence).
+- `evidence/` — primary-evidence intake with 7 documented folders (desktop, mobile, checkout, emails, analytics, competitors, customer-feedback) for founder-supplied evidence, cross-referenced to the audit's Evidence Required Register.
+- `docs/18-forensic-ecommerce-audit.md` upgraded to a **living document (v1.1)**: classification key added; gifting/positioning recommendations reclassified into a **Strategic Hypotheses Register (SH-01…SH-05)**; OPP-01 retired into SH-01; `/evidence` linked; changelog added.
+- `backlog/README.md` — strategic hypotheses tracked separately from build-ranked work.
+- README, CLAUDE.md updated with the classification standard (working principle #9).
+
+**Business impact:** Protects trust in the operating system; ensures every strategic decision is traceable to evidence. No direct revenue impact.
+**KPIs affected:** None directly.
+**Store changes:** None (by design).
+
+---
+
 ### v0.3 — Forensic Ecommerce Audit (Sprint 1) — 2026-06-29
 **Type:** Repository / documentation — evidence & strategy (no store changes, no code)
 **Sprint:** [Sprint 1](../backlog/sprint-01-conversion.md)

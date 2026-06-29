@@ -1,8 +1,21 @@
 # 18 — Forensic Ecommerce Audit (Sprint 1)
 
-**Prepared for:** The board of Edge Scarves · **Prepared by:** Fractional Ecommerce Director (acting as Shopify Plus Ecommerce Director, Senior CRO Consultant, Ecommerce CEO, strategy & UX research perspectives) · **Date:** 2026-06-29 · **Status:** 🟢 Delivered — becomes the prioritised backlog.
+**Prepared for:** The board of Edge Scarves · **Prepared by:** Fractional Ecommerce Director (acting as Shopify Plus Ecommerce Director, Senior CRO Consultant, Ecommerce CEO, strategy & UX research perspectives) · **Date:** 2026-06-29 · **Status:** 🟢 Living document — evolves as evidence improves.
 
 > **No store changes were made. No code was written.** This is an evidence-gathering and commercial-strategy sprint. Recommendations are ranked, not implemented.
+
+> 📄 **This is a LIVING consultancy document (v1.1).** It is updated as evidence arrives in [`/evidence`](../evidence): claims are upgraded between tiers and recommendations re-scored. See the **Changelog** at the foot of this document.
+
+### Classification key (every claim is tiered — see [`19-evidence-standards.md`](19-evidence-standards.md))
+
+| Tag | Tier | Meaning |
+|---|---|---|
+| `[FACT]` | Observed Fact | Directly verified from a cited primary source. |
+| `[INFERENCE]` | Reasonable Inference | Logically drawn from facts + category norms; not measured. |
+| `[HYPOTHESIS]` | Strategic Hypothesis | A strategic/positioning bet requiring validation before scaled action. |
+| `[RECOMMENDATION]` | Commercial Recommendation | A scored, justified action (the OPP backlog). |
+
+**Critical for trust:** strategic *positioning* claims in this audit — including the gifting repositioning — are now classified as **Strategic Hypotheses** (`[HYPOTHESIS]`), held in the **Strategic Hypotheses Register** below, and must be **validated with evidence before they drive irreversible action.**
 
 ---
 
@@ -28,12 +41,12 @@ The strategic and commercial reasoning below (positioning, gifting, AOV, retenti
 
 Edge Scarves is a **2021-founded, Norfolk-based online scarf & accessories boutique** that has already built the hardest thing to fake: **a genuine, well-loved gifting product**. Trustpilot 4.2 across 138 reviews, with customers repeatedly praising *quality, hand gift-wrapping (tissue, ribbon, card) and fast delivery*, tells us the product, fulfilment and packaging are not the problem. That is a strong foundation and should be protected, not "optimised away."
 
-The central finding is **strategic, not cosmetic**: the business is positioned as *"Luxury Scarves"* but priced at **~£18–£30** and self-describes its mission as *"high-quality scarves at an affordable price."* It is, in reality, **an affordable premium gifting brand wearing a luxury label**. That contradiction is quietly capping growth — it confuses the customer, weakens pricing power, and leaves the single most valuable asset (it is *already a gifting business*) under-exploited. The biggest commercial prize is not a better scarf store; it is **becoming the go-to destination for a beautiful, affordable, ready-to-give gift.**
+The central finding is **strategic, not cosmetic** — and it is a **Strategic Hypothesis (`[HYPOTHESIS]` SH-01), not a proven fact.** What we *know* (`[FACT]`): the business is positioned as *"Luxury Scarves"* but priced at **~£18–£30** and self-describes its mission as *"high-quality scarves at an affordable price"*; its reviews centre overwhelmingly on *gifting and packaging*. What we *infer* (`[INFERENCE]`): it is, in reality, **an affordable premium gifting brand wearing a luxury label**, and that contradiction is likely capping growth (confusing the customer, weakening pricing power, under-exploiting the gifting asset). The **hypothesis** is that the biggest commercial prize is **becoming the go-to destination for a beautiful, affordable, ready-to-give gift** — *to be validated, not assumed* (see Strategic Hypotheses Register, SH-01).
 
 Would I still recommend these moves at £100k/month revenue? The strategic ones (gifting positioning, AOV system, email/retention, paid-acquisition readiness, AI gift-finder) become *more* valuable with scale, not less — they are the engine, not a patch. I flag explicitly where a recommendation is a near-term fix that scale would supersede.
 
 **The five things that matter most (depth over volume):**
-1. **Pick a lane and own "gifting."** Resolve the luxury-vs-affordable contradiction by making *the perfect, beautifully-wrapped gift* the hero proposition. (OPP-01)
+1. **Pick a lane and own "gifting."** Resolve the luxury-vs-affordable contradiction by making *the perfect, beautifully-wrapped gift* the hero proposition. **`[HYPOTHESIS]` SH-01 — validate before acting.**
 2. **Instrument the business.** Without trustworthy GA4/Shopify/pixel data, every decision below is a guess. This is the prerequisite. (OPP-02)
 3. **Put the social proof to work.** 138 Trustpilot reviews and 4.2 stars barely appear to be merchandised on-site. (OPP-03)
 4. **Engineer AOV.** A ~£25 product with a £50 free-ship threshold is begging for gift bundles, sets and multi-buy. (OPP-04, OPP-05)
@@ -62,7 +75,9 @@ Would I still recommend these moves at £100k/month revenue? The strategic ones 
 
 ## 3. Commercial Positioning
 
-**Observation.** Three different self-descriptions are in market simultaneously: *"Luxury Scarves Beautifully Gift Wrapped"* (site), *"Luxury scarves, accessories & gifts"* (FB), *"high-quality scarves at an affordable price"* (About Us). Price points sit at ~£18–£30.
+> **Tier:** the observations are `[FACT]`; the conclusion that repositioning will unlock growth is `[HYPOTHESIS]` **SH-01/SH-02** — validate before acting.
+
+**Observation `[FACT]`.** Three different self-descriptions are in market simultaneously: *"Luxury Scarves Beautifully Gift Wrapped"* (site), *"Luxury scarves, accessories & gifts"* (FB), *"high-quality scarves at an affordable price"* (About Us). Price points sit at ~£18–£30.
 
 **Why it matters.** "Luxury" sets an expectation (£80–£300, silk/cashmere, heritage) the price and product deliberately don't meet. Mismatched positioning does two expensive things: it **deters the gift-buyer who fears it's out of budget** and **fails to convert the luxury-seeker who finds it "too cheap to be real luxury."** It also **forfeits pricing power** — the brand is apologising for a low price instead of celebrating an accessible one.
 
@@ -70,7 +85,7 @@ Would I still recommend these moves at £100k/month revenue? The strategic ones 
 
 **USP, sharpened:** *"The effortless premium gift — hand-wrapped, ready to give, from £25."* Sustainability (REPREVE recycled) and reversibility are **proof points**, not the headline.
 
-→ Drives **OPP-01** (reposition around gifting). Strategic value at £100k/month: *higher* — positioning is the foundation everything else compounds on.
+→ Captured as **Strategic Hypothesis SH-01** (reposition around gifting) and **SH-02** (pricing power) in the register below — **validation-gated, not yet a build.** Strategic value at £100k/month: *higher* — positioning is the foundation everything else compounds on.
 
 ---
 
@@ -242,6 +257,8 @@ These are where the £10k+/month (and beyond) value compounds. They depend on th
 
 ## Evidence Required Register (what to collect, why, how it changes decisions)
 
+> Founder-supplied evidence is stored in [`/evidence`](../evidence) (desktop, mobile, checkout, emails, analytics, competitors, customer-feedback) and **referenced back into this living document** — each item below, once collected, upgrades the relevant claim's tier and re-scores its recommendation.
+
 | # | Evidence needed | Why it matters | How to collect | Influences |
 |---|---|---|---|---|
 | E1 | Conversion rate, sessions, device split, funnel drop-off | Quantifies every CRO finding; sizes the prize | GA4 + Shopify Analytics export | OPP-02, all CRO |
@@ -257,6 +274,59 @@ These are where the £10k+/month (and beyond) value compounds. They depend on th
 
 ---
 
+## Strategic Hypotheses Register
+
+> **These are `[HYPOTHESIS]`, not `[RECOMMENDATION]`.** They are strategic/positioning bets that must be **validated with evidence before they drive irreversible action**. Each follows the structure in [`19-evidence-standards.md`](19-evidence-standards.md). They are *not* in the build-ranked backlog; validating them is the work. The contradicting-evidence column is deliberately populated — a hypothesis with no stated counter-evidence is under-examined.
+
+### SH-01 — Edge Scarves is fundamentally a *gifting* business and should reposition around "affordable luxury gifting"
+- **Statement:** Making *the perfect, beautifully-wrapped, ready-to-give gift* the hero proposition (rather than "luxury scarves") will increase conversion, AOV and brand pull.
+- **Supporting Evidence:** `[FACT]` reviews centre overwhelmingly on packaging/gifting/delivery; `[FACT]` "gift wrapping as standard" (tissue/ribbon/card); `[FACT]` IG/FB bios already foreground "lovingly gift wrapped"; `[FACT]` ~£18–30 price suits gifting impulse buys.
+- **Contradicting Evidence:** `[INFERENCE]` some customers may buy for themselves (self-treat) — unknown split; `[INFERENCE]` "luxury" framing may attract a segment we'd dilute; no `[FACT]` yet on gift-vs-self ratio.
+- **Validation Required:** the gift-vs-self purchase split; whether gifting framing lifts conversion/AOV vs current.
+- **Expected Commercial Impact:** potentially the largest single lever — conversion + AOV + lower price-sensitivity + wider occasion-driven demand. (Quantify after E1–E2.)
+- **Validation Method:** post-purchase survey ("gift or self? who for?"); analytics on gift-message usage; an A/B or before/after test of gifting-framed homepage/landing vs control.
+- **Confidence Level:** 🟡 **Medium** — strong qualitative signal (reviews, packaging), no quantitative split yet.
+
+### SH-02 — There is unrealised pricing power
+- **Statement:** The brand can hold or raise prices (improving margin) without materially losing volume, because the "luxury/affordable" gap suggests it is under-charging for the perceived value.
+- **Supporting Evidence:** `[FACT]` "luxury" positioning at ~£18–30; `[FACT]` reviews say product/packaging feel premium ("beautifully presented", "excellent quality").
+- **Contradicting Evidence:** `[FACT]` mission explicitly targets "affordable price"; `[INFERENCE]` price-sensitive gift shoppers may anchor on sub-£30; competitor price points (£20–55) are mixed.
+- **Validation Required:** price elasticity; whether a higher price or premium tier holds conversion.
+- **Expected Commercial Impact:** direct margin/net-profit uplift — even +£2–3 AOV on existing volume is high-leverage. (Quantify after E2.)
+- **Validation Method:** price test on a subset/new line; premium "gift edition" at a higher price; monitor conversion + AOV.
+- **Confidence Level:** 🔴 **Low** — plausible but untested; do not act before a controlled test.
+
+### SH-03 — The primary customer is the *gift-giver*, not the self-purchaser
+- **Statement:** The dominant, higher-value buyer is purchasing for someone else; the persona and journey should be built for the gift-giver first.
+- **Supporting Evidence:** `[FACT]` gifting-led reviews; `[FACT]` gift-wrap-as-standard; `[INFERENCE]` seasonal gifting category.
+- **Contradicting Evidence:** no `[FACT]` on the actual split; reversible/eco features appeal to self-purchasers too.
+- **Validation Required:** the real gift-vs-self ratio and the gifter's demographics/occasions.
+- **Expected Commercial Impact:** sharper targeting → cheaper acquisition, higher conversion; underpins SH-01.
+- **Validation Method:** post-purchase survey; GA4 demographics; gift-message/ship-to-different-address data.
+- **Confidence Level:** 🟡 **Medium** — consistent qualitative signal; needs the quantitative split.
+
+### SH-04 — AI-native gifting differentiation is a durable competitive moat
+- **Statement:** Building AI-native gifting experiences (starting with an AI Gift Finder) creates a defensible advantage small scarf competitors won't match, improving conversion, AOV and first-party data.
+- **Supporting Evidence:** `[FACT]` company thesis is to be AI-native; `[INFERENCE]` gift discovery is a genuine customer pain (decision anxiety) that AI suits; `[FACT]` competitors show no such tooling in research.
+- **Contradicting Evidence:** `[INFERENCE]` at current traffic the absolute uplift may be small; build/maintenance cost is real; novelty ≠ profit.
+- **Validation Required:** that a gift finder measurably lifts conversion/AOV at our traffic; that it's not solving a non-problem.
+- **Expected Commercial Impact:** conversion + AOV + data asset; compounds at scale. (Quantify via test.)
+- **Validation Method:** a lean MVP gift-finder on a fraction of traffic; measure completion → conversion/AOV vs control.
+- **Confidence Level:** 🔴 **Low–Medium** — strategically compelling, commercially unproven at current scale.
+
+### SH-05 — A focused, scarves-led range beats category expansion at this scale
+- **Statement:** Concentrating on scarves + coherent accessories (and gating loungewear/bags behind margin/attach tests) yields better profit and brand clarity than broad expansion.
+- **Supporting Evidence:** `[FACT]` range already spans loungewear/bags/wraps; `[INFERENCE]` small brands gain from focus (inventory, story, ad efficiency).
+- **Contradicting Evidence:** `[INFERENCE]` expansion could raise AOV/LTV if attach rates are high; no `[FACT]` yet on category-level margins/attach.
+- **Validation Required:** per-category margin, sell-through and attach rates.
+- **Expected Commercial Impact:** protects margin and acquisition efficiency; avoids dead inventory.
+- **Validation Method:** category profitability analysis (E2) + attach-rate analysis; review before any expansion spend.
+- **Confidence Level:** 🟡 **Medium** — focus is generally right for the stage, but category data could change the call.
+
+> **Gate:** none of SH-01…SH-05 is implemented at scale until validated. Several validation methods are themselves cheap, reversible tests — that is the approved path from `[HYPOTHESIS]` to `[RECOMMENDATION]`.
+
+---
+
 ## Opportunity Backlog — every recommendation, scored & ranked
 
 Scored with the [Opportunity Scoring Framework](../scorecards/opportunity-scoring-framework.md): `Value Index = 0.30·Profit + 0.20·Revenue + 0.20·Conversion + 0.15·Strategic + 0.15·CX`; `Cost = (Effort+Risk)/2`; **`Opportunity Score = (Value/Cost)×10`**. KPI-improvement figures are **directional hypotheses pending baseline (E1–E3)**, not measured results.
@@ -267,7 +337,7 @@ Scored with the [Opportunity Scoring Framework](../scorecards/opportunity-scorin
 | 2 | OPP-05 | Cart free-shipping progress + threshold optimisation | 5 | 7 | 6 | 5 | 4 | 2 | 2 | **28.3** | 🟡 |
 | 3 | OPP-16 | Homepage value-prop + gifting promise above the fold | 6 | 6 | 7 | 6 | 6 | 3 | 2 | **24.8** | 🟡 |
 | 4 | OPP-02 | Analytics & tracking foundation (GA4/Pixel/CAPI/consent) | 6 | 6 | 6 | 3 | 8 | 3 | 2 | **23.4** | 🟡 |
-| 5 | OPP-01 | Reposition around **affordable-luxury gifting** | 8 | 8 | 7 | 7 | 9 | 4 | 3 | **22.3** | 🟡 |
+| — | ~~OPP-01~~ | **Reclassified → Strategic Hypothesis SH-01** (gifting repositioning). Validation-gated; see register above. | — | — | — | — | — | — | — | — | 🔵 Hypothesis |
 | 6 | OPP-09 | Confirm/optimise market & currency config (GBP default) | 6 | 5 | 6 | 6 | 5 | 2 | 3 | **22.2** | 🟡 |
 | 7 | OPP-04 | Gift bundles / curated sets + multi-buy (AOV) | 7 | 8 | 5 | 6 | 7 | 4 | 3 | **19.3** | 🟠 |
 | 8 | OPP-08 | PDP conversion essentials (styling, benefits, trust, reviews) | 6 | 6 | 8 | 7 | 5 | 5 | 2 | **18.3** | 🟠 |
@@ -286,16 +356,8 @@ Scored with the [Opportunity Scoring Framework](../scorecards/opportunity-scorin
 
 > Each item below carries the required fields. (The remaining items follow the same structure; full write-ups are produced as they enter a sprint. Each will be copied into a [feature request](../templates/feature-request.md).)
 
-#### OPP-01 — Reposition around "Affordable Luxury Gifting"
-- **Observation:** "Luxury" claim vs ~£18–30 price and "affordable" mission — a positioning contradiction across site/social.
-- **Evidence:** homepage title "Luxury Scarves Beautifully Gift Wrapped"; About Us "affordable price"; indexed prices ~$24–37; reviews centre on *gifting & packaging*.
-- **Commercial impact:** clearer positioning lifts conversion of the gift-buyer, supports pricing power, and focuses all marketing. The highest-leverage strategic move.
-- **Recommended solution:** make *the perfect, beautifully-wrapped, ready-to-give gift* the hero proposition; reframe homepage, collections (occasion-led) and copy; treat eco/reversible as proof points; quote one consistent review stat.
-- **Expected KPI improvement (hypothesis, pending baseline):** conversion +; AOV +; brand/branded-search +. Quantify after E1.
-- **Opportunity Score:** 22.3 (Value 7.8 / Cost 3.5). **Priority:** High (strategic mandate).
-- **Dependencies:** brand assets ([`docs/02-brand-strategy.md`](02-brand-strategy.md)); ideally E4 screenshots.
-- **Acceptance criteria:** single positioning statement adopted; homepage + top collections reframed to gifting; consistent review stat; no "luxury" claim unsupported by experience.
-- **Owner:** Content Writer + CRO (CEO sign-off on positioning).
+#### OPP-01 — *Reclassified to Strategic Hypothesis SH-01*
+> Per Sprint 1 review, the gifting repositioning is now **`[HYPOTHESIS]` SH-01** in the Strategic Hypotheses Register above — it must be **validated with evidence** (gift-vs-self split; a gifting-framed conversion test) **before** it drives an irreversible reposition. The eventual *implementation* of a validated SH-01 will re-enter the backlog as one or more scored recommendations at that point.
 
 #### OPP-03 — Merchandise social proof on-site
 - **Observation:** strong off-site reviews (Trustpilot 4.2/138) appear under-surfaced on-site.
@@ -346,7 +408,7 @@ These are mostly **configuration/copy/merchandising**, not heavy builds — fast
 
 ## 20. High-Impact Projects (lower efficiency score, high strategic value)
 
-1. **OPP-01** Gifting repositioning — the foundation everything compounds on.
+1. **SH-01** Gifting repositioning — the foundation everything compounds on — *validate first (Strategic Hypothesis), then implement.*
 2. **OPP-07** Email + occasion-reminder CRM — best retention hooks in retail.
 3. **OPP-12** AI Gift Finder — on-brand AI-native differentiation; conversion + data + AOV.
 4. **OPP-11** Paid-acquisition readiness (Pinterest/Meta/Shopping) — the growth dial, *after* OPP-02.
@@ -356,18 +418,19 @@ These are mostly **configuration/copy/merchandising**, not heavy builds — fast
 
 > Sequenced for the £2k/month net target while laying £10k/month foundations. Maps to two-week sprints; each item enters as a scored feature request.
 
-**Days 0–15 — Instrument & See (foundation)**
-- OPP-02 tracking foundation; collect E1–E8 (esp. screenshots E4, checkout E5, PSI/GSC E6).
+**Days 0–15 — Instrument, See & Validate (foundation)**
+- OPP-02 tracking foundation; collect E1–E8 into [`/evidence`](../evidence) (esp. screenshots E4, checkout E5, PSI/GSC E6).
 - Confirm OPP-09 currency/market config.
-- *Exit:* trustworthy baselines for every KPI; "Evidence Required" items resolved.
+- **Begin validating the Strategic Hypotheses** — launch the post-purchase survey (SH-01/SH-03 gift-vs-self) and category profitability pull (SH-05).
+- *Exit:* trustworthy baselines for every KPI; "Evidence Required" items resolved; first hypothesis-validation evidence captured.
 
 **Days 16–30 — Quick Wins on existing traffic**
 - OPP-03 reviews on-site; OPP-05 cart threshold messaging; OPP-16 homepage value-prop.
 - *Exit:* measurable conversion/AOV lift on current traffic (now measurable thanks to OPP-02).
 
 **Days 31–55 — Position & Monetise**
-- OPP-01 gifting repositioning (homepage + occasion-led collections); OPP-04 bundles/sets; OPP-06 gifting UX; OPP-08 PDP essentials.
-- *Exit:* clear gifting position; AOV system live.
+- **Act on SH-01/SH-03 validation results:** if the gift-vs-self evidence supports it, implement the gifting reposition (homepage + occasion-led collections) as scored recommendations; if not, adjust. OPP-04 bundles/sets; OPP-06 gifting UX; OPP-08 PDP essentials.
+- *Exit:* positioning decision made *on evidence*; AOV system live.
 
 **Days 56–75 — Own the Audience**
 - OPP-07 email capture + core flows + occasion reminders; OPP-10 SEO gift-intent foundations; OPP-14 mobile/speed.
@@ -381,26 +444,30 @@ These are mostly **configuration/copy/merchandising**, not heavy builds — fast
 
 ## 22. Conclusion
 
-Edge Scarves is a better business than its current scale suggests. It has done the hard, unfakeable part — **a product and a packaging experience customers genuinely love** — and it sits on an undervalued strategic asset: **it is already a gifting brand.** The work ahead is not to fix a broken store; it is to **stop under-selling a good one.** Commit to *affordable-luxury gifting*, instrument the business so decisions are evidence-led, harvest the cheap conversion and AOV wins, build the owned-audience and occasion-retention engine, and only then scale acquisition — adding AI-native differentiation (starting with a gift finder) as the moat.
+Edge Scarves is a better business than its current scale suggests. It has done the hard, unfakeable part — **a product and a packaging experience customers genuinely love** (`[FACT]`) — and it *appears* to sit on an undervalued strategic asset: the hypothesis (`[HYPOTHESIS]` SH-01) that **it is already a gifting brand.** The work ahead is not to fix a broken store; it is to **stop under-selling a good one** — but the central positioning bet is to be *validated, not assumed.* Instrument the business so decisions are evidence-led, **test the gifting hypothesis**, harvest the cheap conversion and AOV wins, build the owned-audience and occasion-retention engine, and only then scale acquisition — adding AI-native differentiation (starting with a gift finder) as a moat to be proven.
 
 Do that, and £2,000/month net profit is a near-term engineering problem, not a hope; and the same engine, instrumented and scaled, is a credible route to £10,000+/month. The single most important next action is the least glamorous: **get the evidence (E1–E8) so this audit's hypotheses become a quantified, fully-costed plan.**
 
 ---
 
 ## Dependencies
-- [`scorecards/opportunity-scoring-framework.md`](../scorecards/opportunity-scoring-framework.md) · [`research/competitors/edge-scarves-evidence-log.md`](../research/competitors/edge-scarves-evidence-log.md) · [`docs/00-north-star.md`](00-north-star.md) · [`backlog/README.md`](../backlog/README.md)
+- [`docs/19-evidence-standards.md`](19-evidence-standards.md) (classification) · [`/evidence`](../evidence) (primary evidence) · [`scorecards/opportunity-scoring-framework.md`](../scorecards/opportunity-scoring-framework.md) · [`research/competitors/edge-scarves-evidence-log.md`](../research/competitors/edge-scarves-evidence-log.md) · [`docs/00-north-star.md`](00-north-star.md) · [`backlog/README.md`](../backlog/README.md)
 
 ## Open Questions
-- Can `edgescarves.com` be allowed on the session network policy for a full crawl, or will evidence come via screenshots/exports?
-- Founder's view on the gifting repositioning (OPP-01) before it is actioned?
+- Can `edgescarves.com` be allowed on the session network policy for a full crawl, or will evidence come via screenshots/exports into [`/evidence`](../evidence)?
+- Founder's view on Strategic Hypothesis **SH-01** (gifting) — and willingness to run the validating post-purchase survey?
 - Confirmed primary market/currency and target geographies?
 
 ## Action Items
-- [ ] Collect Evidence Required Register items E1–E8 (founder/analyst).
-- [ ] Convert each OPP into a scored [feature request](../templates/feature-request.md) and load into [`backlog/README.md`](../backlog/README.md).
-- [ ] Founder reviews OPP-01 positioning recommendation.
-- [ ] Re-score every OPP once baselines (E1–E3) exist — effort/impact will sharpen.
+- [ ] Collect Evidence Required Register items E1–E8 into [`/evidence`](../evidence) (founder/analyst).
+- [ ] **Validate the Strategic Hypotheses (SH-01…SH-05)** via their stated methods before any is implemented at scale.
+- [ ] Convert each OPP into a scored [feature request](../templates/feature-request.md) and keep [`backlog/README.md`](../backlog/README.md) current.
+- [ ] Re-score every OPP, and upgrade claim tiers, as evidence arrives — this is a living document.
+
+## Changelog
+- **v1.1 — 2026-06-29:** Sprint 1 review response. Added the four-tier classification key ([`19-evidence-standards.md`](19-evidence-standards.md)); reclassified gifting/positioning recommendations into the **Strategic Hypotheses Register (SH-01…SH-05)** with supporting/contradicting evidence, validation method and confidence; linked the new [`/evidence`](../evidence) intake; marked the document as living. OPP-01 retired into SH-01.
+- **v1.0 — 2026-06-29:** Initial forensic audit (Sprint 1), 16 scored recommendations, built on cited public evidence (live crawl blocked by egress policy).
 
 ---
 
-**Status:** 🟢 Delivered — evidence-based audit (live-crawl pending) · **Last Updated:** 2026-06-29 · **Owner:** Fractional Ecommerce Director (CEO + CRO + Data Analyst prompts)
+**Status:** 🟢 Living document (v1.1) — evidence-led, evolves as `/evidence` grows · **Last Updated:** 2026-06-29 · **Owner:** Fractional Ecommerce Director (CEO + CRO + Data Analyst prompts)

@@ -52,7 +52,13 @@ edge-scarves-os/
 │   ├── 14-kpis.md
 │   ├── 15-development-standards.md
 │   ├── 16-roadmap.md
-│   └── 17-release-notes.md
+│   ├── 17-release-notes.md
+│   ├── 18-forensic-ecommerce-audit.md  ← living audit → backlog
+│   └── 19-evidence-standards.md        ← classification & trust standard
+├── evidence/                  ← primary evidence (founder-supplied)
+│   ├── desktop/  mobile/  checkout/
+│   ├── emails/  analytics/
+│   └── competitors/  customer-feedback/
 ├── prompts/                   ← the AI specialist team (system prompts)
 │   ├── ceo.md
 │   ├── project-manager.md
@@ -108,7 +114,8 @@ edge-scarves-os/
 5. **Premium discipline.** Edge Scarves is a premium brand; the quality of our internal work mirrors the quality we promise customers.
 6. **Reversible by default.** Prefer changes that can be measured and rolled back.
 7. **Commercially driven, not technically driven.** Every backlog item is scored and ranked by the [Opportunity Scoring Framework](scorecards/opportunity-scoring-framework.md) before it is built. We work the highest-value, lowest-cost opportunity next.
-8. **Decide from evidence.** Decisions reference [`research/`](research/) and data; the [North Star](docs/00-north-star.md) and [Business Principles](docs/00-business-principles.md) resolve conflicts.
+8. **Decide from evidence.** Decisions reference [`research/`](research/), primary [`evidence/`](evidence/) and data; the [North Star](docs/00-north-star.md) and [Business Principles](docs/00-business-principles.md) resolve conflicts.
+9. **Classify every claim.** Label work as **Observed Fact / Reasonable Inference / Strategic Hypothesis / Commercial Recommendation** per [`docs/19-evidence-standards.md`](docs/19-evidence-standards.md). Never let a hypothesis masquerade as a fact — this is the OS's trust contract.
 
 ## Sprint Methodology
 

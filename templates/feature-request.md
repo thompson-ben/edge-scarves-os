@@ -5,6 +5,8 @@
 ## Summary
 One sentence: what is being proposed.
 
+> **Classification** ([`docs/19-evidence-standards.md`](../docs/19-evidence-standards.md)): a feature request is a `[RECOMMENDATION]`. If it rests on a strategic positioning bet, link the underlying `[HYPOTHESIS]` and confirm it is validated (or that this item *is* the validation test). Tag the evidence below as `[FACT]` / `[INFERENCE]`.
+
 ## Problem / Opportunity
 What problem does this solve, or what opportunity does it capture? Use evidence (data, customer voice, audit finding) where possible.
 

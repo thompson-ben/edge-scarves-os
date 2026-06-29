@@ -24,7 +24,7 @@ The master, prioritised list of everything we might build. **Rule: no backlog it
 | 2 | OPP-05 | Cart free-shipping progress + threshold | 5 | 7 | 6 | 5 | 4 | 2 | 2 | **28.3** | Ranked |
 | 3 | OPP-16 | Homepage value-prop + gifting promise | 6 | 6 | 7 | 6 | 6 | 3 | 2 | **24.8** | Ranked |
 | 4 | OPP-02 | Analytics & tracking foundation | 6 | 6 | 6 | 3 | 8 | 3 | 2 | **23.4** | **Do first** |
-| 5 | OPP-01 | Reposition: affordable-luxury gifting | 8 | 8 | 7 | 7 | 9 | 4 | 3 | **22.3** | Ranked (strategic) |
+| — | ~~OPP-01~~ | **→ Strategic Hypothesis SH-01** (gifting reposition) — validation-gated, not build-ranked | — | — | — | — | — | — | — | — | 🔵 Hypothesis |
 | 6 | OPP-09 | Confirm/optimise market & currency config | 6 | 5 | 6 | 6 | 5 | 2 | 3 | **22.2** | Ranked |
 | 7 | OPP-04 | Gift bundles / sets + multi-buy (AOV) | 7 | 8 | 5 | 6 | 7 | 4 | 3 | **19.3** | Ranked |
 | 8 | OPP-08 | PDP conversion essentials | 6 | 6 | 8 | 7 | 5 | 5 | 2 | **18.3** | Ranked |
@@ -38,6 +38,20 @@ The master, prioritised list of everything we might build. **Rule: no backlog it
 | 16 | OPP-15 | Range focus & category-expansion gating | 5 | 6 | 4 | 5 | 8 | 4 | 5 | **12.3** | Ranked |
 
 **Bands:** 🟢 ≥40 Strong · 🟡 20–39 Moderate · 🟠 10–19 Weak · 🔴 <10 Poor.
+
+### Strategic Hypotheses (validation-gated — NOT in the build ranking)
+
+Strategic **positioning** bets are held as hypotheses in the [Strategic Hypotheses Register](../docs/18-forensic-ecommerce-audit.md#strategic-hypotheses-register) and must be **validated with evidence before implementation** (per [`docs/19-evidence-standards.md`](../docs/19-evidence-standards.md)). They are tracked separately so they are never mistaken for ready-to-build, scored work.
+
+| ID | Strategic Hypothesis | Confidence | Validation method |
+|---|---|---|---|
+| SH-01 | Edge Scarves is fundamentally a gifting business → reposition to affordable-luxury gifting | 🟡 Medium | Post-purchase survey + gifting-framed conversion test |
+| SH-02 | There is unrealised pricing power | 🔴 Low | Controlled price/premium-tier test |
+| SH-03 | Primary customer is the gift-giver, not self-purchaser | 🟡 Medium | Survey + GA4 + gift-message/ship-to data |
+| SH-04 | AI-native gifting differentiation is a durable moat | 🔴 Low–Med | Lean AI gift-finder MVP vs control |
+| SH-05 | A focused scarves-led range beats category expansion | 🟡 Medium | Category profitability + attach-rate analysis |
+
+> A validated hypothesis re-enters the ranked backlog above as one or more scored recommendations at that point.
 
 ## Sprints
 

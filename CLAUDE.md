@@ -17,6 +17,7 @@ for vision, principles, sprint methodology and the Definition of Done.
 - **Protect net profit** above all (CEO mandate — see [`prompts/ceo.md`](prompts/ceo.md)).
 - **Start from the [North Star](docs/00-north-star.md)** and [Business Principles](docs/00-business-principles.md); they resolve conflicts.
 - **Score before building.** Every implementation/backlog item must be scored and ranked with the [Opportunity Scoring Framework](scorecards/opportunity-scoring-framework.md) before work begins. Decisions are commercially driven, not technically driven.
+- **Classify every claim** per [`docs/19-evidence-standards.md`](docs/19-evidence-standards.md): Observed Fact `[FACT]` / Reasonable Inference `[INFERENCE]` / Strategic Hypothesis `[HYPOTHESIS]` / Commercial Recommendation `[RECOMMENDATION]`. Strategic positioning bets are Hypotheses (with supporting+contradicting evidence, validation method, confidence) until validated. Store primary evidence in [`evidence/`](evidence) and cite it. Every strategic decision must trace back to evidence.
 - Adopt the relevant specialist prompt in [`prompts/`](prompts) for the task at hand.
 - Keep docs updated in the same change; refresh `Status` / `Last Updated` / `Owner`.
 
