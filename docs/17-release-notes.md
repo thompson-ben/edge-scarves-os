@@ -10,6 +10,24 @@ Versioning: `vMAJOR.MINOR` — MAJOR = strategic milestone, MINOR = shipped spri
 
 ---
 
+### v0.3 — Forensic Ecommerce Audit (Sprint 1) — 2026-06-29
+**Type:** Repository / documentation — evidence & strategy (no store changes, no code)
+**Sprint:** [Sprint 1](../backlog/sprint-01-conversion.md)
+
+**Summary:** Delivered a consultancy-grade forensic ecommerce audit of edgescarves.com that becomes the prioritised backlog for all future development. Every recommendation is evidence-based and scored with the Opportunity Scoring Framework.
+
+**Shipped:**
+- `docs/18-forensic-ecommerce-audit.md` — 22-section board-grade audit (exec summary → 90-day roadmap → conclusion), 16 scored & ranked recommendations (OPP-01…OPP-16), an Evidence Required Register, and an integrity statement.
+- `research/competitors/edge-scarves-evidence-log.md` — cited public-evidence log underpinning the audit.
+- `backlog/README.md` — ranked Opportunity Backlog populated from the audit.
+
+**Evidence note:** the live store could not be crawled (session egress policy denied `edgescarves.com:443`); findings rest on search-indexed pages, Trustpilot (4.2/138) and social profiles, with all internal/commercial data marked *Evidence Required*. No facts were invented.
+**Business impact:** Produces the commercial blueprint and prioritised backlog; no direct revenue impact (strategy sprint).
+**KPIs affected:** None directly; directs the work that will move all KPIs.
+**Store changes:** None (by design).
+
+---
+
 ### v0.2 — OS Hardening — 2026-06-29
 **Type:** Repository / documentation (no store changes)
 **Sprint:** [Sprint 0.5 — OS Hardening](../backlog/sprint-00-5-os-hardening.md)

@@ -14,11 +14,28 @@ The master, prioritised list of everything we might build. **Rule: no backlog it
 
 ## Ranked backlog
 
-> Sorted high → low by Opportunity Score. Populate as feature requests are scored. Do not implement an unscored item.
+> Sorted high → low by Opportunity Score. Populated from the [Sprint 1 Forensic Audit](../docs/18-forensic-ecommerce-audit.md). Do not implement an unscored item. **Scores are provisional pending baseline data (E1–E3 in the audit) — re-score once analytics exist.**
+>
+> **Sequencing note:** OPP-02 (data foundation) is a hard prerequisite — schedule it first regardless of rank. OPP-01/07/12 rank lower on pure efficiency but carry a strategic mandate (CEO sign-off).
 
-| Rank | Item | Revenue | Profit | Conv | CX | Strategic | Effort | Risk | **Opp. Score** | Status |
-|---|---|---|---|---|---|---|---|---|---|---|
-| — | _No scored items yet — add via the [feature request template](../templates/feature-request.md)._ | | | | | | | | | |
+| Rank | ID | Item | Rev | Profit | Conv | CX | Strat | Effort | Risk | **Score** | Status |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | OPP-03 | Merchandise reviews/Trustpilot on-site | 6 | 5 | 8 | 6 | 5 | 2 | 2 | **29.8** | Ranked |
+| 2 | OPP-05 | Cart free-shipping progress + threshold | 5 | 7 | 6 | 5 | 4 | 2 | 2 | **28.3** | Ranked |
+| 3 | OPP-16 | Homepage value-prop + gifting promise | 6 | 6 | 7 | 6 | 6 | 3 | 2 | **24.8** | Ranked |
+| 4 | OPP-02 | Analytics & tracking foundation | 6 | 6 | 6 | 3 | 8 | 3 | 2 | **23.4** | **Do first** |
+| 5 | OPP-01 | Reposition: affordable-luxury gifting | 8 | 8 | 7 | 7 | 9 | 4 | 3 | **22.3** | Ranked (strategic) |
+| 6 | OPP-09 | Confirm/optimise market & currency config | 6 | 5 | 6 | 6 | 5 | 2 | 3 | **22.2** | Ranked |
+| 7 | OPP-04 | Gift bundles / sets + multi-buy (AOV) | 7 | 8 | 5 | 6 | 7 | 4 | 3 | **19.3** | Ranked |
+| 8 | OPP-08 | PDP conversion essentials | 6 | 6 | 8 | 7 | 5 | 5 | 2 | **18.3** | Ranked |
+| 9 | OPP-07 | Email capture + flows + occasion reminders | 7 | 8 | 6 | 6 | 8 | 5 | 3 | **17.8** | Ranked (strategic) |
+| 10 | OPP-06 | Gifting UX (message, receipt, send-direct, add-ons) | 7 | 6 | 7 | 8 | 7 | 5 | 3 | **17.1** | Ranked |
+| 11 | OPP-10 | SEO: gift-intent, structured data, "Scarfs", guides | 7 | 6 | 5 | 4 | 7 | 5 | 2 | **16.7** | Ranked |
+| 12 | OPP-14 | Mobile UX + site-speed optimisation | 6 | 6 | 7 | 7 | 6 | 5 | 3 | **15.9** | Ranked |
+| 13 | OPP-12 | AI Gift Finder quiz (AI-native) | 7 | 6 | 7 | 8 | 9 | 6 | 4 | **14.3** | Ranked (strategic) |
+| 14 | OPP-11 | Paid-acquisition readiness (Pinterest/Meta/Shopping) | 8 | 7 | 5 | 4 | 7 | 5 | 4 | **14.1** | Ranked |
+| 15 | OPP-13 | Loyalty / "gift again" / occasion CRM / referral | 6 | 7 | 4 | 6 | 8 | 6 | 4 | **12.4** | Ranked |
+| 16 | OPP-15 | Range focus & category-expansion gating | 5 | 6 | 4 | 5 | 8 | 4 | 5 | **12.3** | Ranked |
 
 **Bands:** 🟢 ≥40 Strong · 🟡 20–39 Moderate · 🟠 10–19 Weak · 🔴 <10 Poor.
 

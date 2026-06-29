@@ -1,6 +1,8 @@
 # Sprint 1 — Conversion (Baseline & Audit)
 
-**Dates:** TODO (2 weeks) · **Status:** ⚪ Planned · **Phase:** 1 (Conversion)
+**Dates:** TODO (2 weeks) · **Status:** 🟢 Audit delivered (evidence-gathering) · **Phase:** 1 (Conversion)
+
+> **Sprint 1 ran as an evidence-gathering & commercial-strategy sprint — no code, no store changes, nothing implemented.** Primary deliverable: the [Forensic Ecommerce Audit](../docs/18-forensic-ecommerce-audit.md), which produced the ranked [Opportunity Backlog](README.md). The live store could not be crawled (session egress policy denied `edgescarves.com`), so findings rest on cited public evidence + a documented [Evidence Required Register](../docs/18-forensic-ecommerce-audit.md#evidence-required-register-what-to-collect-why-how-it-changes-decisions). Implementation of any OPP item happens in later sprints, once baselines (E1–E3) exist.
 
 ## Objective
 
