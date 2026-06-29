@@ -13,11 +13,11 @@ The phased plan that connects today's foundation work to the £2,000/month and t
 - **Exit criteria:** Repository complete; baselines and access identified; Sprint 1 ready to start.
 - **Status:** 🟢 In progress (Sprint 0).
 
-### Phase 1 — Conversion (→ £2,000/month net)
-- **Goal:** Establish baselines, audit the store, fix top conversion leaks, raise CR and AOV.
-- **Why first:** Cheapest profit — improves return on traffic we already pay for.
-- **Key work:** website audit → CRO backlog → first tests. See [`backlog/sprint-01-conversion.md`](../backlog/sprint-01-conversion.md).
-- **Exit criteria:** Verified path to £2,000/month net, with conversion improvements proven.
+### Phase 1 — Conversion & Revenue Readiness (→ £2,000/month net)
+- **Goal:** Establish baselines, audit the store, **understand the customer (Customer Intelligence)**, fix top conversion leaks, raise CR and AOV.
+- **Why first:** Cheapest profit — improves return on traffic we already pay for; and we must know the customer before optimising for them.
+- **Key work:** website audit → [Customer Intelligence](../docs/20-customer-intelligence.md) (validate the gifting thesis) → CRO backlog → first tests. See [`backlog/sprint-01-conversion.md`](../backlog/sprint-01-conversion.md) and [`backlog/sprint-02-customer-intelligence.md`](../backlog/sprint-02-customer-intelligence.md).
+- **Exit criteria:** Verified path to £2,000/month net; gifting hypothesis validated; conversion improvements proven.
 
 ### Phase 2 — Acquisition (profitable scale)
 - **Goal:** Scale profitable paid (Meta) and organic (SEO/social) traffic above break-even ROAS.

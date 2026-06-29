@@ -44,6 +44,22 @@ The single definition of every metric Edge Scarves tracks, the targets for each,
 | Checkout conversion | Checkout-started → completed | TODO | TODO | Shopify |
 | Cart abandonment | 1 − (purchases ÷ carts) | TODO | TODO | Shopify |
 
+### Customer Intelligence dashboard
+
+> Introduced in [Sprint 2 — Customer Intelligence](20-customer-intelligence.md). These measure *who buys and why* — the evidence behind the gifting thesis (SH-01/SH-03) and retention. Sourced from the [CI schema](../schemas/customer-intelligence-schema.md); baselines pending the post-purchase survey + order analysis.
+
+| KPI | Definition | Baseline | Target | Source |
+|---|---|---|---|---|
+| Gift purchase % | Gift orders ÷ total orders | TODO | TODO | Survey + order signals |
+| Self purchase % | Self orders ÷ total orders | TODO | TODO | Survey + order signals |
+| Repeat purchase % | Customers with ≥2 orders ÷ total customers | TODO | TODO | Shopify/CI |
+| Average gifts per customer | Gift orders ÷ customers | TODO | TODO | CI |
+| Occasion mix | Distribution of stated occasions | TODO | n/a (monitor) | Survey |
+| Review sentiment | % positive reviews (or mean score) | TODO | TODO | Reviews/Trustpilot |
+| Gift-wrap (option) adoption | Orders using gift options (message/recipient) ÷ orders | TODO | TODO | Shopify/CI |
+
+> **Note on "gift-wrap adoption":** wrapping is currently *standard*, so the decision-useful metric is **gift-option adoption** (gift message / recipient address). Confirm whether wrap is always-on or selectable before finalising the target.
+
 ### Operations dashboard
 | KPI | Definition | Baseline | Target | Source |
 |---|---|---|---|---|

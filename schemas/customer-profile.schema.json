@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edgescarves.com/schemas/customer-profile.schema.json",
+  "title": "Edge Scarves — Customer Profile",
+  "description": "Design-stage unified customer profile for the Customer Intelligence system (docs/20-customer-intelligence.md). Planning artefact, not a live database. Pseudonymous; minimise and redact personal data.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["customer_id", "first_seen", "order_count", "repeat_customer"],
+  "properties": {
+    "customer_id": { "type": "string", "description": "Pseudonymous unique id" },
+    "region": { "type": "string", "enum": ["UK", "EU", "US", "ROW"] },
+    "first_seen": { "type": "string", "format": "date" },
+    "last_order_date": { "type": "string", "format": "date" },
+    "discovery_source": {
+      "type": "string",
+      "enum": ["meta_ad", "google", "pinterest", "organic_search", "direct", "referral", "email", "unknown"],
+      "description": "First-touch acquisition source"
+    },
+    "order_count": { "type": "integer", "minimum": 0 },
+    "repeat_customer": { "type": "boolean", "description": "Derived: order_count >= 2" },
+    "lifetime_spend_gbp": { "type": "number", "minimum": 0 },
+    "avg_order_value_gbp": { "type": "number", "minimum": 0 },
+    "gift_order_count": { "type": "integer", "minimum": 0 },
+    "avg_gifts_per_customer": { "type": "number", "minimum": 0 },
+    "favourite_products": { "type": "array", "items": { "type": "string" } },
+    "customer_segment": {
+      "type": "string",
+      "enum": ["vip_gifter", "repeat_self", "one_time_gifter", "one_time_self", "lapsed", "prospect"]
+    },
+    "predominant_buyer_type": { "type": "string", "enum": ["gifter", "self", "mixed", "unknown"] },
+    "email_engagement": { "type": "string", "enum": ["engaged", "passive", "lapsed", "none"] },
+    "review_sentiment_avg": { "type": "string", "enum": ["positive", "neutral", "negative", "unknown"] },
+    "consent_marketing": { "type": "boolean" },
+    "consent_timestamp": { "type": "string", "format": "date-time" },
+    "orders": {
+      "type": "array",
+      "description": "Linked orders (see order entity in the data dictionary)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["order_id", "order_date", "order_value_gbp"],
+        "properties": {
+          "order_id": { "type": "string" },
+          "order_date": { "type": "string", "format": "date" },
+          "order_value_gbp": { "type": "number", "minimum": 0 },
+          "items": { "type": "array", "items": { "type": "string" } },
+          "item_count": { "type": "integer", "minimum": 0 },
+          "gift_wrapped": { "type": "boolean" },
+          "gift_options_used": { "type": "boolean" },
+          "gift_or_self": { "type": "string", "enum": ["gift", "self", "unknown"] },
+          "ship_to_differs": { "type": "boolean" },
+          "discount_used": { "type": ["boolean", "string"] },
+          "channel": { "type": "string", "enum": ["online_store", "other"] }
+        }
+      }
+    },
+    "insight_events": {
+      "type": "array",
+      "description": "Survey/support/social responses",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["event_id", "source", "timestamp"],
+        "properties": {
+          "event_id": { "type": "string" },
+          "order_id": { "type": ["string", "null"] },
+          "source": { "type": "string", "enum": ["survey", "support", "email_reply", "meta_comment", "social_dm"] },
+          "purchase_reason": { "type": "string", "enum": ["gift", "self_treat", "replacement", "occasion", "other"] },
+          "recipient": { "type": "string", "enum": ["self", "mother", "partner", "friend", "colleague", "other"] },
+          "occasion": { "type": "string", "enum": ["birthday", "christmas", "mothers_day", "valentines", "anniversary", "thank_you", "none", "other"] },
+          "sentiment": { "type": "string", "enum": ["positive", "neutral", "negative"] },
+          "timestamp": { "type": "string", "format": "date-time" }
+        }
+      }
+    }
+  }
+}

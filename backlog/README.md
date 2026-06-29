@@ -59,9 +59,13 @@ The sprint files below pull their work from the top of this ranked backlog:
 
 - [Sprint 0 — Foundation](sprint-00-foundation.md) ✅
 - [Sprint 0.5 — OS Hardening](sprint-00-5-os-hardening.md) ✅
-- [Sprint 1 — Conversion](sprint-01-conversion.md)
-- [Sprint 2 — Meta](sprint-02-meta.md)
-- [Sprint 3 — Email](sprint-03-email.md)
+- [Sprint 1 — Forensic Audit](sprint-01-conversion.md) ✅
+- [Sprint 2 — Customer Intelligence](sprint-02-customer-intelligence.md) ✅ *(revenue-readiness: understand the customer before optimising)*
+- [Sprint 3 — Conversion quick wins](sprint-01-conversion.md) *(implement top-ranked OPP items once evidence lands)*
+- [Sprint — Meta / Acquisition](sprint-02-meta.md) *(resequenced after readiness & validation)*
+- [Sprint — Email / Retention](sprint-03-email.md) *(resequenced)*
+
+> **Sequencing logic:** understand the customer (S2) → validate hypotheses → harvest conversion/AOV wins → then scale acquisition and retention. Acquisition (Meta) and lifecycle (Email) deliberately follow readiness, per the audit's 90-day roadmap.
 
 > Note: the foundation sprints (0, 0.5) build the operating system itself and predate the scoring requirement. From Sprint 1 onward, every implementation item must carry an Opportunity Score.
 

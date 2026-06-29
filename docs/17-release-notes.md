@@ -10,6 +10,24 @@ Versioning: `vMAJOR.MINOR` — MAJOR = strategic milestone, MINOR = shipped spri
 
 ---
 
+### v0.5 — Customer Intelligence (Sprint 2) — 2026-06-29
+**Type:** Repository / documentation — strategic workstream design (no store changes, no code)
+**Sprint:** [Sprint 2 — Customer Intelligence](../backlog/sprint-02-customer-intelligence.md)
+
+**Summary:** Designed the Customer Intelligence workstream — the system to understand who buys, why, and what drives repeat purchase — wired into the evidence loop so it validates the Strategic Hypotheses (esp. SH-01 gifting, SH-03 gift-giver).
+
+**Shipped:**
+- `docs/20-customer-intelligence.md` — CI strategy: 7 insight sources (S1–S7); the Insight Pipeline (Evidence → Structured data → Insights → Strategic decisions → Sprint backlog); Future AI Vision (recommendations, emails, audiences, bundles, demand forecasting, merchandising — crawl/walk/run, human-in-the-loop); data governance/privacy.
+- `schemas/` — Customer Intelligence database design: a data dictionary (`customer-intelligence-schema.md`) across customer/order/insight_event/review entities with sources, allowed values, privacy classes, segments and KPI derivations; plus a machine-readable `customer-profile.schema.json`.
+- `docs/14-kpis.md` — new Customer Intelligence dashboard (gift %, self %, repeat %, avg gifts/customer, occasion mix, review sentiment, gift-wrap/option adoption).
+- `docs/13-ai-strategy.md` cross-linked to the CI AI vision; `backlog/` resequenced (acquisition/retention follow readiness).
+
+**Business impact:** Builds the lens to validate the gifting thesis and design retention/targeting on evidence; no direct revenue (design sprint).
+**KPIs affected:** Introduces the CI dashboard; enables later movement of conversion, AOV, repeat %, net profit.
+**Store changes:** None (by design).
+
+---
+
 ### v0.4 — Evidence Standards & Living Audit (Sprint 1 review) — 2026-06-29
 **Type:** Repository / documentation — trust & evidence standard (no store changes, no code)
 **Sprint:** [Sprint 1 review](../backlog/sprint-01-conversion.md)

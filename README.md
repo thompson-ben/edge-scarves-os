@@ -54,11 +54,15 @@ edge-scarves-os/
 │   ├── 16-roadmap.md
 │   ├── 17-release-notes.md
 │   ├── 18-forensic-ecommerce-audit.md  ← living audit → backlog
-│   └── 19-evidence-standards.md        ← classification & trust standard
+│   ├── 19-evidence-standards.md        ← classification & trust standard
+│   └── 20-customer-intelligence.md     ← who buys, why, repeat drivers
 ├── evidence/                  ← primary evidence (founder-supplied)
 │   ├── desktop/  mobile/  checkout/
 │   ├── emails/  analytics/
 │   └── competitors/  customer-feedback/
+├── schemas/                   ← data-model designs
+│   ├── customer-intelligence-schema.md
+│   └── customer-profile.schema.json
 ├── prompts/                   ← the AI specialist team (system prompts)
 │   ├── ceo.md
 │   ├── project-manager.md

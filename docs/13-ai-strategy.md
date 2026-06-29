@@ -27,7 +27,7 @@ Define how Edge Scarves uses AI (Claude and the specialist prompt team) as an op
 
 ## Future Vision
 
-AI is embedded in every workflow: drafting and reviewing store code, generating and ranking CRO hypotheses, producing ad/email/content variants, analysing performance data into recommendations, and maintaining this knowledge base. The specialist prompts evolve with the business. AI multiplies the founder's output while the CEO mandate and human-in-the-loop controls keep it profit-focused and brand-safe.
+AI is embedded in every workflow: drafting and reviewing store code, generating and ranking CRO hypotheses, producing ad/email/content variants, analysing performance data into recommendations, and maintaining this knowledge base. Critically, AI is fuelled by the [Customer Intelligence](20-customer-intelligence.md) system — once the CI database exists, AI uses it to recommend products, generate occasion-triggered emails, suggest Meta audiences, identify bundles, predict seasonal demand and propose merchandising (see the [Future AI Vision](20-customer-intelligence.md#deliverable-5--future-ai-vision), sequenced crawl → walk → run, human-in-the-loop for outward-facing actions). The specialist prompts evolve with the business. AI multiplies the founder's output while the CEO mandate and human-in-the-loop controls keep it profit-focused and brand-safe.
 
 ## Dependencies
 
