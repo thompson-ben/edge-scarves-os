@@ -15,6 +15,8 @@ for vision, principles, sprint methodology and the Definition of Done.
   the live store.
 - **Never invent business facts.** Mark unknowns as `TODO` and surface open questions.
 - **Protect net profit** above all (CEO mandate — see [`prompts/ceo.md`](prompts/ceo.md)).
+- **Start from the [North Star](docs/00-north-star.md)** and [Business Principles](docs/00-business-principles.md); they resolve conflicts.
+- **Score before building.** Every implementation/backlog item must be scored and ranked with the [Opportunity Scoring Framework](scorecards/opportunity-scoring-framework.md) before work begins. Decisions are commercially driven, not technically driven.
 - Adopt the relevant specialist prompt in [`prompts/`](prompts) for the task at hand.
 - Keep docs updated in the same change; refresh `Status` / `Last Updated` / `Owner`.
 

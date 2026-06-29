@@ -19,10 +19,24 @@ Why this is worth doing now. Tie to the profit target.
 - **KPI(s) affected:** (from [`docs/14-kpis.md`](../docs/14-kpis.md))
 - Confidence: High / Medium / Low (and why).
 
-## Prioritisation (ICE)
-| Impact (1–10) | Confidence (1–10) | Ease (1–10) | ICE score |
-|---|---|---|---|
-| | | | |
+## Opportunity Score (required before implementation)
+Score each factor 1–10. See the [Opportunity Scoring Framework](../scorecards/opportunity-scoring-framework.md) for definitions and the formula.
+
+| Value factor | Score (1–10) | | Cost factor | Score (1–10) |
+|---|---|---|---|---|
+| Revenue Impact | | | Effort | |
+| Profit Impact | | | Risk | |
+| Conversion Impact | | | | |
+| Customer Experience Impact | | | | |
+| Strategic Value | | | | |
+
+```
+Value Index = 0.30·Profit + 0.20·Revenue + 0.20·Conversion + 0.15·Strategic + 0.15·CX = ____
+Cost Index  = (Effort + Risk) / 2 = ____
+Opportunity Score = (Value Index / Cost Index) × 10 = ____   (band: 🟢≥40 / 🟡20–39 / 🟠10–19 / 🔴<10)
+```
+
+**Opportunity Score:** ____ — must be recorded in the ranked backlog ([`backlog/README.md`](../backlog/README.md)) and ranked against all other items **before** work begins.
 
 ## Acceptance Criteria
 - [ ] …

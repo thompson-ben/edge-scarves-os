@@ -34,6 +34,8 @@ Supporting principles:
 edge-scarves-os/
 ├── README.md                  ← you are here
 ├── docs/                      ← the knowledge base (strategy, audits, standards)
+│   ├── 00-north-star.md           ← highest authority — read first
+│   ├── 00-business-principles.md  ← ~20 operating principles
 │   ├── 01-business-overview.md
 │   ├── 02-brand-strategy.md
 │   ├── 03-customer-persona.md
@@ -61,8 +63,25 @@ edge-scarves-os/
 │   ├── seo-specialist.md
 │   ├── content-writer.md
 │   └── data-analyst.md
-├── backlog/                   ← sprint plans
+├── scorecards/                ← standardised scoring & ranking
+│   ├── opportunity-scoring-framework.md  ← rank all backlog items
+│   ├── business-health-scorecard.md
+│   ├── website-audit-scorecard.md
+│   ├── marketing-scorecard.md
+│   └── sprint-review-scorecard.md
+├── research/                  ← external intelligence (evidence base)
+│   ├── competitors/
+│   ├── customer-psychology/
+│   ├── ecommerce-best-practice/
+│   ├── gift-market/
+│   ├── seasonal-campaigns/
+│   ├── fashion-trends/
+│   ├── meta-advertising/
+│   └── cro-research/
+├── backlog/                   ← ranked backlog + sprint plans
+│   ├── README.md                  ← ranked by Opportunity Score
 │   ├── sprint-00-foundation.md
+│   ├── sprint-00-5-os-hardening.md
 │   ├── sprint-01-conversion.md
 │   ├── sprint-02-meta.md
 │   └── sprint-03-email.md
@@ -88,6 +107,8 @@ edge-scarves-os/
 4. **Mark the unknown.** Where a fact is not yet known, write `TODO` — never invent business facts.
 5. **Premium discipline.** Edge Scarves is a premium brand; the quality of our internal work mirrors the quality we promise customers.
 6. **Reversible by default.** Prefer changes that can be measured and rolled back.
+7. **Commercially driven, not technically driven.** Every backlog item is scored and ranked by the [Opportunity Scoring Framework](scorecards/opportunity-scoring-framework.md) before it is built. We work the highest-value, lowest-cost opportunity next.
+8. **Decide from evidence.** Decisions reference [`research/`](research/) and data; the [North Star](docs/00-north-star.md) and [Business Principles](docs/00-business-principles.md) resolve conflicts.
 
 ## Sprint Methodology
 
@@ -110,6 +131,7 @@ See [`backlog/sprint-00-foundation.md`](backlog/sprint-00-foundation.md) for the
 A unit of work is **Done** only when **all** of the following are true:
 
 - [ ] Acceptance criteria met and verified
+- [ ] Opportunity-scored and ranked in [`backlog/README.md`](backlog/README.md) before work began (implementation items)
 - [ ] Business impact is measurable and the relevant KPI is identified
 - [ ] Documentation updated in the same change (no orphaned docs)
 - [ ] Changes peer/AI reviewed against [`docs/15-development-standards.md`](docs/15-development-standards.md)

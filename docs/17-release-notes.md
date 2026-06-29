@@ -10,6 +10,26 @@ Versioning: `vMAJOR.MINOR` — MAJOR = strategic milestone, MINOR = shipped spri
 
 ---
 
+### v0.2 — OS Hardening — 2026-06-29
+**Type:** Repository / documentation (no store changes)
+**Sprint:** [Sprint 0.5 — OS Hardening](../backlog/sprint-00-5-os-hardening.md)
+
+**Summary:** Strengthened the operating system before any website development so future decisions are commercially driven, not technically driven.
+
+**Shipped:**
+- `docs/00-north-star.md` — mission, vision, principles, brand promise, definition of success, non-negotiables, decision framework (the repo's highest authority).
+- `docs/00-business-principles.md` — ~20 operating principles.
+- `scorecards/` — Opportunity Scoring Framework plus Business Health, Website Audit, Marketing and Sprint Review scorecards.
+- `research/` — 8 structured, documented folders (competitors, customer psychology, ecommerce best practice, gift market, seasonal campaigns, fashion trends, Meta advertising, CRO research).
+- Opportunity Scoring wired into the feature-request template and a ranked `backlog/README.md` — **all backlog items must be scored and ranked before implementation.**
+- README updated (structure, working principles, Definition of Done).
+
+**Business impact:** Improves decision quality and commercial discipline; no direct revenue impact (foundation).
+**KPIs affected:** None directly; improves the decisions that drive every KPI.
+**Store changes:** None (by design).
+
+---
+
 ### v0.1 — Foundation (Operating System) — 2026-06-29
 **Type:** Repository / documentation (no store changes)
 **Sprint:** [Sprint 0 — Foundation](../backlog/sprint-00-foundation.md)
